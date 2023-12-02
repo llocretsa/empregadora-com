@@ -1,0 +1,17 @@
+*** WordPress Job Manager WooCommerce paid listings changelog ***
+
+2023-08-24 - version 3.0.1
+* Fix: Do not check if a subscription was switched on activation #105
+* Fix: Allow job subscriptions to be switched #103
+* Fix: Fix package counts for renewals #102 
+
+2023-06-10 - version 3.0.0
+* Enhancement: Add support for listing renewals #71
+* Change: Add filter for processing orders #79
+* Fix: Fix PHP 8.2 deprecations #81
+
+2022-05-08 - version 2.9.9
+Fix: Update plugin headers
+
+2022-04-25 - version 2.9.8
+Fix: Stop using deprecated WC subscriptions function
