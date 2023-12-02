@@ -1437,7 +1437,8 @@ if ( ! class_exists( 'Envato_Market_Admin' ) && class_exists( 'Envato_Market' ) 
 				  'title'    => 'Plugin Update API',
 			  ),
 			  array(
-				  'hostname' => 'api.envato.com',
+				  'hostname' => '',
+				  // 'hostname' => 'api.envato.com',
 				  'url'      => 'https://api.envato.com/ping',
 				  'title'    => 'Envato Market API',
 			  ),
@@ -1480,7 +1481,8 @@ if ( ! class_exists( 'Envato_Market_Admin' ) && class_exists( 'Envato_Market' ) 
 
 		  // Check authenticated API request
 			if ( !defined('ENVATO_LOCAL_DEVELOPMENT') ) {
-				$response = envato_market()->api()->request( 'https://api.envato.com/whoami' );
+				$response = envato_market()->api()->request( '' );
+				// $response = envato_market()->api()->request( 'https://api.envato.com/whoami' );
 
 				if ( is_wp_error( $response ) ) {
 					$limits['authentication'] = [

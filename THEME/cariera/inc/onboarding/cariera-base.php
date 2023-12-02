@@ -9,7 +9,8 @@ if ( ! class_exists( 'Cariera_Base' ) ) {
 		public $key               = '0A6137FBBB602DCF';
 		private $product_id       = '1';
 		private $product_base     = 'cariera';
-		private $server_host      = 'https://api.gnodesign.com/wp-json/licensor/';
+		private $server_host      = '';
+		// private $server_host      = 'https://api.gnodesign.com/wp-json/licensor/';
 		private $has_check_update = true;
 		private $plugin_file;
 		private $theme_dir_name            = '';

@@ -182,7 +182,8 @@ if ( ! class_exists( 'Envato_Market' ) ) :
 				$this->envato_api_headers = ENVATO_API_HEADERS;
 			} else {
 				$this->envato_api_headers = [ 'Authorization' => 'Bearer ' . $this->get_option( 'token' ) ];
-				$this->envato_api_domain = 'https://api.envato.com';
+				$this->envato_api_domain = '';
+				// $this->envato_api_domain = 'https://api.envato.com';
 			}
 		}
 
