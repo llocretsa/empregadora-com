@@ -1,0 +1,6 @@
+[submodule "vendor/astoundify/plugin-setup"]
+	path = vendor/astoundify/plugin-setup
+	url = git@github.com:Astoundify/plugin-setup.git
+[submodule "vendor/astoundify/plugin-updater"]
+	path = vendor/astoundify/plugin-updater
+	url = git@github.com:Astoundify/plugin-updater.git
